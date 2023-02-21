@@ -1,0 +1,24 @@
+{
+  "root": "/home/fpfings/tss/01_playgrounds/vite-asset-import-repro",
+  "modules": [
+    {
+      "id": "/home/fpfings/tss/01_playgrounds/vite-asset-import-repro/index.html",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "vite:build-html"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/home/fpfings/tss/01_playgrounds/vite-asset-import-repro/src/main.ts",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "vite:esbuild"
+      ],
+      "virtual": false
+    }
+  ],
+  "ssrModules": []
+}
